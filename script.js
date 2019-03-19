@@ -18,7 +18,7 @@ document.getElementById('button1').onclick = function() {
     stringArray = theString.split("") //split the string into separate characters
   
     for (i = 0; i < stringArray.length; i++) { //loop through each character
-  
+
       switch (stringArray[i]) { //if it is any of these characters, get the value
         case "M":
           addnum = addnum + 1000;
